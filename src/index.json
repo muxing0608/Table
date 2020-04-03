@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "rank":"./yourComponents/rank/index",
+    "user":"./yourComponents/user/index",
+    "sa-sticky":"./SaSticky/index",
+    "info-card":"./yourComponents/infoCard/index"
+  }
+}

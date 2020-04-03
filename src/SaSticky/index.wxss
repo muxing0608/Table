@@ -1,0 +1,12 @@
+.sticky {
+    position: relative;
+  }
+  .ani {
+    transition: 0.1s;
+  }
+  .stickyWrap {
+    position: absolute;
+    right: 0;
+    left: 0;
+  }
+  

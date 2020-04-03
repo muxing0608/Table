@@ -1,0 +1,6 @@
+<view class="sa-sticky sticky" style="height:{{height || 'auto'}}px">
+	<view class="ani {{fixed?'stickyWrap' : ''}}" style="top:{{top}}px">
+		<slot/>
+	</view>
+</view>
+

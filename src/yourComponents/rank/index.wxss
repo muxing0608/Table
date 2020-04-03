@@ -1,0 +1,4 @@
+.rank-icon {
+    width: 36rpx;
+    height: 36rpx;
+}

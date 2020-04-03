@@ -1,0 +1,45 @@
+@import "../../assets/copy.wxss";
+
+.bd-card {
+height: 105rpx;
+}
+.name-wrap {
+    margin-left: 10rpx;
+    height: 80rpx;
+    text-align: left;
+}
+.avatar-wrap {
+    position: relative;
+    width: 70rpx;
+    height: 70rpx;
+}
+.rank-avatar {
+    width: 66rpx;
+    height: 66rpx;
+    border: 2px solid #e5e5e5;
+    border-radius: 35rpx;
+}
+.self-tag {
+    position: absolute;
+    width: 66rpx;
+    height: 30rpx;
+    background: rgba(24, 144, 255, 1);
+    border-radius: 15rpx;
+    font-size: 20rpx;
+    color: white;
+    line-height: 30rpx;
+    bottom: -13rpx;
+}
+.crown {
+    position: absolute;
+    width: 38rpx;
+    height: 28rpx;
+    left: 28rpx;
+    bottom: 56rpx;
+}
+.rank-arrow {
+    width: 30rpx;
+    height: 30rpx;
+}
+
+

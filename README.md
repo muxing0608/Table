@@ -1,5 +1,4 @@
 # Table
 
----
 
-基于Taro的小程序Table组件
+微信小程序原生的Table组件

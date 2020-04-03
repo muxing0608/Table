@@ -1,0 +1,26 @@
+page {
+  width: 100%;
+}
+.flex {
+  display: flex;
+}
+.flex-center {
+  align-items: center;
+  justify-content: center;
+}
+.ai-center {
+  align-items: center;
+}
+.jc-sb {
+  justify-content: space-between;
+}
+.f28 {
+  font-size: 28rpx;
+}
+.f24 {
+  font-size: 24rpx;
+}
+
+.tips3 {
+  color: #333;
+}

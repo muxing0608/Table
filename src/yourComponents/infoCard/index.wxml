@@ -1,0 +1,12 @@
+<view class="wrap">
+	<view class="target">
+		目标:{{info.month_target}}
+	</view>
+	<view class="count">
+		{{info.count}}
+	</view>
+	<view class="progress">
+		进度:{{info.current_progress}}%
+	</view>
+</view>
+
