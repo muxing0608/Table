@@ -1,6 +1,6 @@
 Component({
   properties: {
-    user: {
+    info: {
       type: Object,
       value: {}
     },

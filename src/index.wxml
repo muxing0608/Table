@@ -1,7 +1,7 @@
 <view className="table-fixed-wrap">
 	<scroll-view scroll-x>
 		<view class="table" style="width:{{width}}">
-			<sa-sticky  scrollTop="{{scrollTop}}" zIndex="{{2}}" onContainer="{{container}}">
+			<sa-sticky scrollTop="{{scrollTop}}" zIndex="{{2}}" onContainer="{{container}}">
 				<view class="table-tr">
 					<view
 					 wx:for="{{columns}}"
@@ -24,12 +24,15 @@
 				 wx:for-index="td-index"
 				 wx:for-item="td"
 				 class="table-td"
+				 style="width:{{td.width ? td.width + 'rpx' : 'auto' }}"
 				>
 					<!-- todo 改成table-cell统一组件 -->
 					<!-- 普通的text -->
 					<block wx:if="{{!td.type || td.type === 'text' }}" style="">{{item[td.prop]}}</block>
 					<!-- 如果出现自定义的组件，则需要手动添加，因为微信无法动态渲染不同的Components -->
-					<user user="{{item[td.prop]}}" rank="{{index}}" />
+					<user wx:elif="{{td.type === 'user'}}" info="{{item[td.prop]}}" rank="{{index}}" />
+					<rank wx:elif="{{td.type === 'rank'}}" info="{{item[td.prop]}}" rank="{{index}}" />
+					<info-card wx:elif="{{td.type === 'info-card'}}" info="{{item[td.prop]}}" rank="{{index}}" />
 				</view>
 			</view>
 		</view>
