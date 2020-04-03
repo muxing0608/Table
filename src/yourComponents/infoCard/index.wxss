@@ -1,0 +1,13 @@
+
+.wrap{
+    text-align: right;
+}
+.target{
+font-size: 24rpx;
+}
+.count{
+font-size: 30rpx;
+}
+.progress{
+font-size: 24rpx;
+}

@@ -1,0 +1,7 @@
+<view>
+  <view>tbaleDemo</view>
+  <view class="table-wrap">
+    <sa-table dataSource="{{dataSource}}" columns="{{columns}}" scrollTop="{{scrollTop}}">
+    </sa-table>
+  </view>
+</view>

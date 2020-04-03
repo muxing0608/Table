@@ -1,0 +1,15 @@
+<view class="flex ai-center jc-sb bd-card">
+	<view class="flex ai-center">
+		<view class="avatar-wrap">
+			<image class="rank-avatar" mode="aspectFill" src="{{user.avatar}}" />
+			<block wx:if="{{rank === 0}}">
+				<image class="crown" src="https://img.16pinpin.com/saturn/image/rank_crown.png" />
+			</block>
+		</view>
+		<view class="name-wrap tips3">
+			<view class="f28">{{user.name}}</view>
+			<view class="f24">{{user.city}}</view>
+		</view>
+	</view>
+	<image class="rank-arrow" src="https://img.16pinpin.com/table_bd_arrow2.png" />
+</view>
